@@ -22,7 +22,7 @@ namespace AppDapper.Repository.Repositories
         {
             using (var conn = _dbSession.Connection)
             {
-                string query = "SELECT * FROM Usuario WHERE Ativo = 1";
+                string query = "GetUsuario";
                 List<Usuario> usuarios = (await conn.QueryAsync<Usuario>(sql: query)).ToList();
                 return usuarios;
             }
