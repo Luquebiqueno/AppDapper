@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper\\AppDapper.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\AppDapper.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\AppDapper.Domain.csproj",
+        "projectName": "AppDapper.Domain",
+        "projectPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\AppDapper.Domain.csproj",
+        "packagesPath": "C:\\Users\\luquebiqueno.pires\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luquebiqueno.pires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\AppDapper.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\AppDapper.Repository.csproj",
+        "projectName": "AppDapper.Repository",
+        "projectPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\AppDapper.Repository.csproj",
+        "packagesPath": "C:\\Users\\luquebiqueno.pires\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luquebiqueno.pires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\AppDapper.Domain.csproj": {
+                "projectPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Domain\\AppDapper.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper\\AppDapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper\\AppDapper.csproj",
+        "projectName": "AppDapper",
+        "projectPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper\\AppDapper.csproj",
+        "packagesPath": "C:\\Users\\luquebiqueno.pires\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luquebiqueno.pires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\AppDapper.Repository.csproj": {
+                "projectPath": "C:\\Users\\luquebiqueno.pires\\Documents\\Luquebiqueno\\Projetos\\AppDapper\\AppDapper.Repository\\AppDapper.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
